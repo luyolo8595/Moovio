@@ -1,0 +1,130 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 350px;
+    border: 1.5px;
+    box-shadow: -30px 30px 20px rgba(0,0 , 0, 0.1);
+    border-radius: 2%;
+    position: relative;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: orange;
+    font-weight: bold;
+    margin: auto;
+    top: 160px;
+}
+
+#welcome{
+    height: 70px;
+    width: 300px;
+    background-color:darkcyan;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    text-align: center;
+}
+
+    h1{
+        padding: 15px;
+    }
+
+.container{
+    position: relative;
+    top: 40px;
+    width: 300px;
+    justify-content: space-between;
+    animation: chamileon infinite 7s;
+    animation-timing-function: ease-out;
+
+}
+    @keyframes chamileon{
+        0%  {background-color: white}
+        50%  {background-color:  rgb(144, 189, 189)}
+        100% {background-color: rgb(240, 247, 247)}
+    }
+
+    .label-row{
+        padding: 5px;
+        align-items: center;
+        height: 15px; 
+        padding-top: 15px; 
+    
+    }
+        #password{
+            margin-left: 1.9px;
+        }
+
+.button-container{
+    width: 200px;
+    height: 100px;
+    background-color: lightcyan;
+    position: relative;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    bottom: -20px;
+    border-radius: 2%;
+    cursor: pointer;
+}
+    button{
+        height: 30px;
+        font-weight: bold;
+        padding: 8px;
+        flex: 1;
+        background-color:darkcyan;
+        color: orange;
+        border-radius: 4px;
+    }
+        #login{
+            width: 60px;
+            margin: auto;
+        }
+        #create{
+            width: 120px;
+            margin: auto;
+        }
+        #forgot{
+            margin: auto;
+        }
+        .buttonlink{
+            width: 120px;
+            margin: auto;
+        }
+
+/*Create Account Page*/
+
+.CreateAccount{
+    width: 100vw;
+    height: 10vh;
+    background-color: darkcyan;
+}
+    h1{
+        color: orange;
+        padding: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        position: fixed;
+    }
+
+.banner{
+    display: inline-flex;
+    height: 200px;
+    width: 100vw;
+}
+    .Movie{
+        width: 25vw;
+        height: 50vh;
+    }
+
+.CreateAccount h1{
+    position:absolute;
+}
+
+
+
